@@ -263,236 +263,235 @@ export const quizzes: QuizData[] = [
     ]
   },
 {
-  "id": "english-language-varieties",
-  "subject": "Cuestionario de Idioma Inglés (Británico, Americano y Australiano)",
-  "questions": [
+  id: "english-language-varieties",
+  subject: "Cuestionario de Idioma Inglés (Británico, Americano y Australiano)",
+  questions: [
     {
-      "question": "En inglés británico, ¿cuál es la forma más común de referirse a un 'apartamento' en una ciudad?",
-      "options": [
+      question: "En inglés británico, ¿cuál es la forma más común de referirse a un 'apartamento' en una ciudad?",
+      options: [
         "apartment",
         "flat",
         "condo",
         "suite"
       ],
-      "correctAnswerIndex": 1,
-      "explanation": "En inglés británico, se usa 'flat' para describir un apartamento; 'apartment' es más común en inglés americano, mientras que 'condo' y 'suite' tienen otros matices o contextos."
+      correctAnswerIndex: 1,
+      explanation: "En inglés británico, se usa 'flat' para describir un apartamento; 'apartment' es más común en inglés americano, mientras que 'condo' y 'suite' tienen otros matices o contextos."
     },
     {
-      "question": "En inglés estadounidense, ¿qué palabra se utiliza para el vehículo usado para transportar correo y paquetes?",
-      "options": [
+      question: "En inglés estadounidense, ¿qué palabra se utiliza para el vehículo usado para transportar correo y paquetes?",
+      options: [
         "mail truck",
         "post van",
         "delivery wagon",
         "postal car"
       ],
-      "correctAnswerIndex": 0,
-      "explanation": "En Estados Unidos, el vehículo de correos se llama 'mail truck'. En Reino Unido se dice 'post van', y las otras opciones no son de uso común."
+      correctAnswerIndex: 0,
+      explanation: "En Estados Unidos, el vehículo de correos se llama 'mail truck'. En Reino Unido se dice 'post van', y las otras opciones no son de uso común."
     },
     {
-      "question": "En inglés australiano, ¿cómo se denomina coloquialmente a una barbacoa al aire libre?",
-      "options": [
+      question: "En inglés australiano, ¿cómo se denomina coloquialmente a una barbacoa al aire libre?",
+      options: [
         "barbie",
         "grill",
         "braai",
         "BBQ"
       ],
-      "correctAnswerIndex": 0,
-      "explanation": "En Australia, 'barbie' es la forma coloquial de referirse a una barbacoa; 'BBQ' se entiende, pero 'barbie' es típicamente australiana."
+      correctAnswerIndex: 0,
+      explanation: "En Australia, 'barbie' es la forma coloquial de referirse a una barbacoa; 'BBQ' se entiende, pero 'barbie' es típicamente australiana."
     },
     {
-      "question": "En inglés británico, ¿cómo se llama el primer piso de un edificio, justo sobre la planta baja?",
-      "options": [
+      question: "En inglés británico, ¿cómo se llama el primer piso de un edificio, justo sobre la planta baja?",
+      options: [
         "first floor",
         "second floor",
         "ground floor",
         "upper floor"
       ],
-      "correctAnswerIndex": 0,
-      "explanation": "En inglés británico, 'first floor' es el piso inmediatamente sobre la planta baja ('ground floor'), a diferencia del inglés americano donde 'first floor' suele referirse a la planta baja."
+      correctAnswerIndex: 0,
+      explanation: "En inglés británico, 'first floor' es el piso inmediatamente sobre la planta baja ('ground floor'), a diferencia del inglés americano donde 'first floor' suele referirse a la planta baja."
     },
     {
-      "question": "En inglés estadounidense, la frase 'I couldn't care less' significa:",
-      "options": [
+      question: "En inglés estadounidense, la frase 'I couldn't care less' significa:",
+      options: [
         "Me importa un poco.",
         "Me importa mucho.",
         "No me importa en absoluto.",
         "Podría importarme menos."
       ],
-      "correctAnswerIndex": 2,
-      "explanation": "La expresión 'I couldn't care less' es una forma idiomática de decir que algo no tiene ninguna importancia para ti, y que es imposible que te importe menos de lo que ya te importa."
+      correctAnswerIndex: 2,
+      explanation: "La expresión 'I couldn't care less' es una forma idiomática de decir que algo no tiene ninguna importancia para ti, y que es imposible que te importe menos de lo que ya te importa."
     },
     {
-      "question": "En inglés, ¿cuál es la forma correcta de expresar un 'subjuntivo' en la frase 'It's vital that he _________ the truth'?",
-      "options": [
+      question: "En inglés, ¿cuál es la forma correcta de expresar un 'subjuntivo' en la frase 'It's vital that he _________ the truth'?",
+      options: [
         "tells",
         "tell",
         "will tell",
         "told"
       ],
-      "correctAnswerIndex": 1,
-      "explanation": "El subjuntivo en inglés (usado después de verbos como 'suggest', 'demand', 'insist' o adjetivos como 'vital', 'essential') requiere la forma base del verbo, 'tell', sin la 's' de la tercera persona del singular."
+      correctAnswerIndex: 1,
+      explanation: "El subjuntivo en inglés (usado después de verbos como 'suggest', 'demand', 'insist' o adjetivos como 'vital', 'essential') requiere la forma base del verbo, 'tell', sin la 's' de la tercera persona del singular."
     },
     {
-      "question": "En inglés australiano, ¿cómo se llama un autobús de dos pisos utilizado para el transporte público?",
-      "options": [
+      question: "En inglés australiano, ¿cómo se llama un autobús de dos pisos utilizado para el transporte público?",
+      options: [
         "double-decker",
         "coach",
         "bus",
         "tram"
       ],
-      "correctAnswerIndex": 0,
-      "explanation": "En Australia (y Reino Unido), un 'double-decker' es un autobús de dos pisos; 'coach' es un autobús de larga distancia, y 'tram' es un tranvía."
+      correctAnswerIndex: 0,
+      explanation: "En Australia (y Reino Unido), un 'double-decker' es un autobús de dos pisos; 'coach' es un autobús de larga distancia, y 'tram' es un tranvía."
     },
     {
-      "question": "En inglés estadounidense, ¿cuál es la diferencia entre 'affect' y 'effect'?",
-      "options": [
+      question: "En inglés estadounidense, ¿cuál es la diferencia entre 'affect' y 'effect'?",
+      options: [
         "'Affect' es un sustantivo y 'effect' es un verbo.",
         "'Affect' es un verbo que significa influir, y 'effect' es un sustantivo que significa resultado o consecuencia.",
         "Ambos son sustantivos con significados similares.",
         "Ambos son verbos que significan lo mismo."
       ],
-      "correctAnswerIndex": 1,
-      "explanation": "En general, 'affect' es un verbo que significa influir o causar un cambio, mientras que 'effect' es un sustantivo que indica el resultado o consecuencia de una acción."
+      correctAnswerIndex: 1,
+      explanation: "En general, 'affect' es un verbo que significa influir o causar un cambio, mientras que 'effect' es un sustantivo que indica el resultado o consecuencia de una acción."
     },
     {
-      "question": "En inglés británico, ¿qué palabra se usa para referirse a los zapatos deportivos?",
-      "options": [
+      question: "En inglés británico, ¿qué palabra se usa para referirse a los zapatos deportivos?",
+      options: [
         "trainers",
         "sneakers",
         "tennis shoes",
         "runners"
       ],
-      "correctAnswerIndex": 0,
-      "explanation": "'Trainers' es el término común en Reino Unido para zapatos deportivos; 'sneakers' y 'tennis shoes' son típicos de Estados Unidos, mientras que 'runners' se usa de manera más coloquial."
+      correctAnswerIndex: 0,
+      explanation: "'Trainers' es el término común en Reino Unido para zapatos deportivos; 'sneakers' y 'tennis shoes' son típicos de Estados Unidos, mientras que 'runners' se usa de manera más coloquial."
     },
     {
-      "question": "En inglés australiano, ¿cómo se llama comúnmente a un automóvil pequeño y económico?",
-      "options": [
+      question: "En inglés australiano, ¿cómo se llama comúnmente a un automóvil pequeño y económico?",
+      options: [
         "ute",
         "hatchback",
         "cabriolet",
         "sedan"
       ],
-      "correctAnswerIndex": 1,
-      "explanation": "En Australia, 'hatchback' es un término común para un automóvil pequeño con portón trasero; 'ute' es un vehículo utilitario, y 'cabriolet' o 'sedan' tienen significados específicos distintos."
+      correctAnswerIndex: 1,
+      explanation: "En Australia, 'hatchback' es un término común para un automóvil pequeño con portón trasero; 'ute' es un vehículo utilitario, y 'cabriolet' o 'sedan' tienen significados específicos distintos."
     }
   ]
 }
 {
-  "id": "linkin-park-quiz",
-  "subject": "Linkin Park",
-  "questions": [
+  id: "linkin-park-quiz",
+  subject: "Linkin Park",
+  questions: [
     {
-      "question": "¿Quién fue el vocalista principal de Linkin Park, conocido por sus potentes gritos y melodías?",
-      "options": [
+      question: "¿Quién fue el vocalista principal de Linkin Park, conocido por sus potentes gritos y melodías?",
+      options: [
         "Mike Shinoda",
         "Brad Delson",
         "Chester Bennington",
         "Joe Hahn"
       ],
-      "correctAnswerIndex": 2,
-      "explanation": "Chester Bennington fue el icónico vocalista principal de Linkin Park, cuya voz distintiva se convirtió en un sello de la banda."
+      correctAnswerIndex: 2,
+      explanation: "Chester Bennington fue el icónico vocalista principal de Linkin Park, cuya voz distintiva se convirtió en un sello de la banda."
     },
     {
-      "question": "¿Cuál de los siguientes álbumes NO es uno de los primeros tres de estudio de Linkin Park?",
-      "options": [
+      question: "¿Cuál de los siguientes álbumes NO es uno de los primeros tres de estudio de Linkin Park?",
+      options: [
         "Hybrid Theory",
         "Meteora",
         "Minutes to Midnight",
         "A Thousand Suns"
       ],
-      "correctAnswerIndex": 3,
-      "explanation": "Los primeros tres álbumes de estudio de Linkin Park fueron Hybrid Theory (2000), Meteora (2003) y Minutes to Midnight (2007). 'A Thousand Suns' fue lanzado en 2010."
+      correctAnswerIndex: 3,
+      explanation: "Los primeros tres álbumes de estudio de Linkin Park fueron Hybrid Theory (2000), Meteora (2003) y Minutes to Midnight (2007). 'A Thousand Suns' fue lanzado en 2010."
     },
     {
-      "question": "¿Cómo se llamaba originalmente Linkin Park antes de adoptar su nombre definitivo?",
-      "options": [
+      question: "¿Cómo se llamaba originalmente Linkin Park antes de adoptar su nombre definitivo?",
+      options: [
         "Xero",
         "Hybrid Theory",
         "Grey Daze",
         "The Humble Brothers"
       ],
-      "correctAnswerIndex": 0,
-      "explanation": "Antes de ser Linkin Park, la banda se llamaba Xero. Luego cambiaron a Hybrid Theory brevemente antes de establecerse en Linkin Park."
+      correctAnswerIndex: 0,
+      explanation: "Antes de ser Linkin Park, la banda se llamaba Xero. Luego cambiaron a Hybrid Theory brevemente antes de establecerse en Linkin Park."
     },
     {
-      "question": "¿Qué canción de Linkin Park cuenta con la colaboración de Jay-Z en el álbum 'Collision Course'?",
-      "options": [
+      question: "¿Qué canción de Linkin Park cuenta con la colaboración de Jay-Z en el álbum 'Collision Course'?",
+      options: [
         "In the End",
         "Numb/Encore",
         "Faint",
         "Crawling"
       ],
-      "correctAnswerIndex": 1,
-      "explanation": "'Numb/Encore' es una de las colaboraciones más famosas de Linkin Park con el rapero Jay-Z, parte de su álbum mash-up 'Collision Course'."
+      correctAnswerIndex: 1,
+      explanation: "'Numb/Encore' es una de las colaboraciones más famosas de Linkin Park con el rapero Jay-Z, parte de su álbum mash-up 'Collision Course'."
     },
     {
-      "question": "¿Qué miembro de la banda es el DJ, conocido por sus innovadores scratches y samples?",
-      "options": [
+      question: "¿Qué miembro de la banda es el DJ, conocido por sus innovadores scratches y samples?",
+      options: [
         "Rob Bourdon",
         "Phoenix Farrell",
         "Joe Hahn",
         "Mike Shinoda"
       ],
-      "correctAnswerIndex": 2,
-      "explanation": "Joe Hahn, también conocido como Mr. Hahn, es el DJ, turntablist y programador de la banda, además de director de muchos de sus videos musicales."
+      correctAnswerIndex: 2,
+      explanation: "Joe Hahn, también conocido como Mr. Hahn, es el DJ, turntablist y programador de la banda, además de director de muchos de sus videos musicales."
     },
     {
-      "question": "¿Qué canción de 'Meteora' es famosa por su icónico riff de guitarra y su poderoso coro, siendo uno de los mayores éxitos de la banda?",
-      "options": [
+      question: "¿Qué canción de 'Meteora' es famosa por su icónico riff de guitarra y su poderoso coro, siendo uno de los mayores éxitos de la banda?",
+      options: [
         "Breaking the Habit",
         "Somewhere I Belong",
         "Faint",
         "Numb"
       ],
-      "correctAnswerIndex": 3,
-      "explanation": "'Numb' es una de las canciones más reconocibles y aclamadas de Linkin Park del álbum 'Meteora', conocida por su melancolía y su potente estructura."
+      correctAnswerIndex: 3,
+      explanation: "'Numb' es una de las canciones más reconocibles y aclamadas de Linkin Park del álbum 'Meteora', conocida por su melancolía y su potente estructura."
     },
     {
-      "question": "¿Cuál fue el último álbum de estudio lanzado por Linkin Park con Chester Bennington como vocalista?",
-      "options": [
+      question: "¿Cuál fue el último álbum de estudio lanzado por Linkin Park con Chester Bennington como vocalista?",
+      options: [
         "Living Things",
         "The Hunting Party",
         "One More Light",
         "From Zero"
       ],
-      "correctAnswerIndex": 2,
-      "explanation": "'One More Light', lanzado en 2017, fue el séptimo y último álbum de estudio de Linkin Park con Chester Bennington antes de su fallecimiento."
+      correctAnswerIndex: 2,
+      explanation: "'One More Light', lanzado en 2017, fue el séptimo y último álbum de estudio de Linkin Park con Chester Bennington antes de su fallecimiento."
     },
     {
-      "question": "¿Qué ingeniero de sonido y productor discográfico de renombre trabajó en los primeros álbumes de Linkin Park, ayudando a definir su sonido distintivo?",
-      "options": [
+      question: "¿Qué ingeniero de sonido y productor discográfico de renombre trabajó en los primeros álbumes de Linkin Park, ayudando a definir su sonido distintivo?",
+      options: [
         "Rick Rubin",
         "Don Gilmore",
         "Brendan O'Brien",
         "Andy Wallace"
       ],
-      "correctAnswerIndex": 1,
-      "explanation": "Don Gilmore produjo 'Hybrid Theory' y 'Meteora', contribuyendo significativamente a establecer el sonido característico de Linkin Park en sus primeros éxitos."
+      correctAnswerIndex: 1,
+      explanation: "Don Gilmore produjo 'Hybrid Theory' y 'Meteora', contribuyendo significativamente a establecer el sonido característico de Linkin Park en sus primeros éxitos."
     },
     {
-      "question": "¿Qué canción del álbum 'A Thousand Suns' presenta un discurso samplesdo del físico J. Robert Oppenheimer sobre la creación de la bomba atómica?",
-      "options": [
+      question: "¿Qué canción del álbum 'A Thousand Suns' presenta un discurso samplesdo del físico J. Robert Oppenheimer sobre la creación de la bomba atómica?",
+      options: [
         "The Catalyst",
         "Waiting for the End",
         "Burning in the Skies",
         "The Radiance"
       ],
-      "correctAnswerIndex": 3,
-      "explanation": "'The Radiance' es una pieza instrumental en 'A Thousand Suns' que incorpora un famoso extracto del discurso de J. Robert Oppenheimer sobre su implicación en el Proyecto Manhattan y la creación de la bomba atómica."
+      correctAnswerIndex: 3,
+      explanation: "'The Radiance' es una pieza instrumental en 'A Thousand Suns' que incorpora un famoso extracto del discurso de J. Robert Oppenheimer sobre su implicación en el Proyecto Manhattan y la creación de la bomba atómica."
     },
     {
-      "question": "¿Cuál de los siguientes no es un miembro original de Linkin Park desde su formación como Xero?",
-      "options": [
+      question: "¿Cuál de los siguientes no es un miembro original de Linkin Park desde su formación como Xero?",
+      options: [
         "Dave 'Phoenix' Farrell",
         "Joe Hahn",
         "Rob Bourdon",
         "Mike Shinoda"
       ],
-      "correctAnswerIndex": 0,
-      "explanation": "Dave 'Phoenix' Farrell dejó la banda brevemente después de la formación de Xero y regresó en 2000, no siendo parte de la alineación inicial de Xero de forma continua."
+      correctAnswerIndex: 0,
+      explanation: "Dave 'Phoenix' Farrell dejó la banda brevemente después de la formación de Xero y regresó en 2000, no siendo parte de la alineación inicial de Xero de forma continua."
     }
   ]
 }
-
 ];
