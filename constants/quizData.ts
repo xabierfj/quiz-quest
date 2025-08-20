@@ -263,55 +263,55 @@ export const quizzes: QuizData[] = [
     ]
   },
 {
-  "id": "english-japanese-language",
-  "subject": "Cuestionario de Idioma Inglés y Japonés",
+  "id": "english-language-varieties",
+  "subject": "Cuestionario de Idioma Inglés (Británico, Americano y Australiano)",
   "questions": [
     {
-      "question": "En inglés, ¿cuál de los siguientes 'phrasal verbs' significa 'posponer'?",
+      "question": "En inglés británico, ¿cuál es la forma más común de referirse a un 'apartamento' en una ciudad?",
       "options": [
-        "To look up",
-        "To put off",
-        "To get over",
-        "To take in"
+        "apartment",
+        "flat",
+        "condo",
+        "suite"
       ],
       "correctAnswerIndex": 1,
-      "explanation": "El 'phrasal verb' 'to put off' significa posponer o aplazar algo para un momento posterior. Por ejemplo, 'I had to put off my meeting until tomorrow'."
+      "explanation": "En inglés británico, se usa 'flat' para describir un apartamento; 'apartment' es más común en inglés americano, mientras que 'condo' y 'suite' tienen otros matices o contextos."
     },
     {
-      "question": "En japonés, ¿cuál es la forma educada del verbo 'hacer' (する - suru)?",
+      "question": "En inglés estadounidense, ¿qué palabra se utiliza para el vehículo usado para transportar correo y paquetes?",
       "options": [
-        "します (shimasu)",
-        "なさる (nasaru)",
-        "なさい (nasai)",
-        "しますます (shimasumasu)"
-      ],
-      "correctAnswerIndex": 1,
-      "explanation": "La forma honorífica (sonkeigo) de 'する' (hacer) es 'なさる' (nasaru). 'します' es la forma cortés (masu-form), no la honorífica. 'なさい' es una forma imperativa."
-    },
-    {
-      "question": "En inglés, ¿cuál es el uso correcto del 'Present Perfect Continuous' en la siguiente frase?",
-      "options": [
-        "He has been working on the project for two weeks.",
-        "He has worked on the project for two weeks.",
-        "He is working on the project for two weeks.",
-        "He works on the project for two weeks."
+        "mail truck",
+        "post van",
+        "delivery wagon",
+        "postal car"
       ],
       "correctAnswerIndex": 0,
-      "explanation": "El 'Present Perfect Continuous' ('has/have been' + verbo-ing) se usa para describir una acción que comenzó en el pasado y continúa hasta el presente, a menudo con un énfasis en la duración."
+      "explanation": "En Estados Unidos, el vehículo de correos se llama 'mail truck'. En Reino Unido se dice 'post van', y las otras opciones no son de uso común."
     },
     {
-      "question": "El 'kanji' (漢字) '女' se pronuncia 'onna' (おんな) y significa:",
+      "question": "En inglés australiano, ¿cómo se denomina coloquialmente a una barbacoa al aire libre?",
       "options": [
-        "Hombre",
-        "Niño",
-        "Mujer",
-        "Animal"
+        "barbie",
+        "grill",
+        "braai",
+        "BBQ"
       ],
-      "correctAnswerIndex": 2,
-      "explanation": "El 'kanji' 女 (onna) significa 'mujer'. Se diferencia de '男' (otoko), que significa 'hombre'."
+      "correctAnswerIndex": 0,
+      "explanation": "En Australia, 'barbie' es la forma coloquial de referirse a una barbacoa; 'BBQ' se entiende, pero 'barbie' es típicamente australiana."
     },
     {
-      "question": "En inglés, la frase 'I couldn't care less' significa:",
+      "question": "En inglés británico, ¿cómo se llama el primer piso de un edificio, justo sobre la planta baja?",
+      "options": [
+        "first floor",
+        "second floor",
+        "ground floor",
+        "upper floor"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "En inglés británico, 'first floor' es el piso inmediatamente sobre la planta baja ('ground floor'), a diferencia del inglés americano donde 'first floor' suele referirse a la planta baja."
+    },
+    {
+      "question": "En inglés estadounidense, la frase 'I couldn't care less' significa:",
       "options": [
         "Me importa un poco.",
         "Me importa mucho.",
@@ -322,18 +322,7 @@ export const quizzes: QuizData[] = [
       "explanation": "La expresión 'I couldn't care less' es una forma idiomática de decir que algo no tiene ninguna importancia para ti, y que es imposible que te importe menos de lo que ya te importa."
     },
     {
-      "question": "En japonés, la partícula 'に' (ni) se puede usar para indicar:",
-      "options": [
-        "El sujeto de la oración.",
-        "El objeto directo de la oración.",
-        "El destino o la dirección del movimiento.",
-        "El tema de la oración."
-      ],
-      "correctAnswerIndex": 2,
-      "explanation": "La partícula 'に' (ni) tiene múltiples usos, uno de los cuales es para indicar el destino o la dirección hacia la que se mueve algo o alguien, como en '学校に行きます' (gakkō ni ikimasu - Voy a la escuela)."
-    },
-    {
-      "question": "En inglés, ¿cuál es la forma correcta de expresar un 'subjuntivo' en la frase 'Es crucial que él _________ la verdad'?",
+      "question": "En inglés, ¿cuál es la forma correcta de expresar un 'subjuntivo' en la frase 'It's vital that he _________ the truth'?",
       "options": [
         "tells",
         "tell",
@@ -341,87 +330,21 @@ export const quizzes: QuizData[] = [
         "told"
       ],
       "correctAnswerIndex": 1,
-      "explanation": "El subjuntivo en inglés (usado después de verbos como 'suggest', 'demand', 'insist', 'propose', y adjetivos como 'crucial', 'essential') requiere la forma base del verbo, 'tell', sin la 's' de la tercera persona del singular."
+      "explanation": "El subjuntivo en inglés (usado después de verbos como 'suggest', 'demand', 'insist' o adjetivos como 'vital', 'essential') requiere la forma base del verbo, 'tell', sin la 's' de la tercera persona del singular."
     },
     {
-      "question": "En japonés, ¿cómo se usa la forma 'te' de un verbo seguida de 'しまう' (shimau)?",
+      "question": "En inglés australiano, ¿cómo se llama un autobús de dos pisos utilizado para el transporte público?",
       "options": [
-        "Para expresar una acción que debe realizarse.",
-        "Para expresar el estado actual de una acción en progreso.",
-        "Para expresar una acción que se ha completado de manera exhaustiva, o de la que uno se lamenta.",
-        "Para expresar una acción que se hará en el futuro."
+        "double-decker",
+        "coach",
+        "bus",
+        "tram"
       ],
-      "correctAnswerIndex": 2,
-      "explanation": "La estructura 'te-form' + 'しまう' (shimau) se usa para indicar que una acción ha sido completada completamente ('done up') o, de forma más coloquial, para expresar arrepentimiento o sorpresa por una acción terminada."
+      "correctAnswerIndex": 0,
+      "explanation": "En Australia (y Reino Unido), un 'double-decker' es un autobús de dos pisos; 'coach' es un autobús de larga distancia, y 'tram' es un tranvía."
     },
     {
-      "question": "¿Cuál es el antónimo más cercano de 'ephemeral' en inglés?",
-      "options": [
-        "Transient",
-        "Fleeting",
-        "Permanent",
-        "Short-lived"
-      ],
-      "correctAnswerIndex": 2,
-      "explanation": "Ephemeral significa algo que dura muy poco tiempo, por lo que su antónimo es 'permanent', que significa algo que dura indefinidamente o por un largo periodo."
-    },
-    {
-      "question": "En japonés, ¿qué significa la expresión idiomática '一石二鳥' (isseki nichō)?",
-      "options": [
-        "El que mucho abarca, poco aprieta.",
-        "Matar dos pájaros de un tiro.",
-        "Una acción habla más que mil palabras.",
-        "No hay mal que por bien no venga."
-      ],
-      "correctAnswerIndex": 1,
-      "explanation": "一石二鳥 (isseki nichō) es un 'yojijukugo' o modismo de cuatro caracteres que significa 'una piedra, dos pájaros'. Su equivalente en español es 'matar dos pájaros de un tiro', haciendo referencia a lograr dos objetivos con una sola acción."
-    },
-    {
-      "question": "En inglés, la frase 'to be on the fence' se usa para describir a alguien que:",
-      "options": [
-        "Está en una situación peligrosa.",
-        "Aún no ha tomado una decisión.",
-        "Está espiando a sus vecinos.",
-        "Se ha caído de una valla."
-      ],
-      "correctAnswerIndex": 1,
-      "explanation": "'To be on the fence' es una expresión idiomática que significa estar indeciso o neutral sobre un asunto, sin haberse comprometido con una de las opciones."
-    },
-    {
-      "question": "En japonés, ¿cuál es la diferencia principal entre '〜てください' (te kudasai) y '〜ていただけませんか' (te itadakemasen ka)?",
-      "options": [
-        "El primero es para peticiones, el segundo para dar órdenes.",
-        "El primero es una petición directa, el segundo es una petición más educada y formal.",
-        "El primero se usa con amigos, el segundo con la familia.",
-        "Ambas son intercambiables y no hay diferencia."
-      ],
-      "correctAnswerIndex": 1,
-      "explanation": "Ambas estructuras son para hacer peticiones. Sin embargo, '〜てください' (te kudasai) es una forma cortés pero más directa, mientras que '〜ていただけませんか' (te itadakemasen ka) es una forma mucho más formal y educada, utilizada con superiores o en situaciones de negocios."
-    },
-    {
-      "question": "En inglés, ¿cuál es el uso correcto del 'Past Perfect' en la siguiente frase?",
-      "options": [
-        "When I got to the station, the train already left.",
-        "When I got to the station, the train had already left.",
-        "When I was getting to the station, the train left.",
-        "When I have gotten to the station, the train left."
-      ],
-      "correctAnswerIndex": 1,
-      "explanation": "El 'Past Perfect' ('had' + participio pasado) se utiliza para describir una acción que ocurrió antes de otra acción en el pasado. En este caso, el tren se fue antes de que yo llegara a la estación."
-    },
-    {
-      "question": "En japonés, ¿cómo se expresa la voz pasiva para el verbo 'leer' (読む - yomu)?",
-      "options": [
-        "読める (yomeru)",
-        "読んだ (yonda)",
-        "読ませる (yomaseru)",
-        "読まれる (yomareru)"
-      ],
-      "correctAnswerIndex": 3,
-      "explanation": "La voz pasiva se forma con la base del verbo 'a' + 'れる' (reru) o 'られる' (rareru). Para '読む' (yomu), la forma pasiva es '読まれる' (yomareru)."
-    },
-    {
-      "question": "En inglés, ¿cuál es la diferencia entre 'affect' y 'effect'?",
+      "question": "En inglés estadounidense, ¿cuál es la diferencia entre 'affect' y 'effect'?",
       "options": [
         "'Affect' es un sustantivo y 'effect' es un verbo.",
         "'Affect' es un verbo que significa influir, y 'effect' es un sustantivo que significa resultado o consecuencia.",
@@ -429,18 +352,145 @@ export const quizzes: QuizData[] = [
         "Ambos son verbos que significan lo mismo."
       ],
       "correctAnswerIndex": 1,
-      "explanation": "Aunque hay excepciones, en general, 'affect' (con 'a') es un verbo que significa influir o causar un cambio. 'Effect' (con 'e') es un sustantivo que se refiere al resultado, consecuencia o impacto de algo."
+      "explanation": "En general, 'affect' es un verbo que significa influir o causar un cambio, mientras que 'effect' es un sustantivo que indica el resultado o consecuencia de una acción."
     },
     {
-      "question": "¿Cuál es la diferencia de uso principal entre las partículas 'wa' (は) y 'ga' (が) en japonés?",
+      "question": "En inglés británico, ¿qué palabra se usa para referirse a los zapatos deportivos?",
       "options": [
-        "'wa' se usa para el objeto, 'ga' para el sujeto.",
-        "'wa' marca el tema, 'ga' marca el sujeto o la información nueva/enfocada.",
-        "'wa' se usa en oraciones afirmativas, 'ga' en oraciones negativas.",
-        "No hay diferencia, son intercambiables."
+        "trainers",
+        "sneakers",
+        "tennis shoes",
+        "runners"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'Trainers' es el término común en Reino Unido para zapatos deportivos; 'sneakers' y 'tennis shoes' son típicos de Estados Unidos, mientras que 'runners' se usa de manera más coloquial."
+    },
+    {
+      "question": "En inglés australiano, ¿cómo se llama comúnmente a un automóvil pequeño y económico?",
+      "options": [
+        "ute",
+        "hatchback",
+        "cabriolet",
+        "sedan"
       ],
       "correctAnswerIndex": 1,
-      "explanation": "'は' (wa) marca el tema de la oración, que es lo que se discute, mientras que 'が' (ga) marca el sujeto de la oración, especialmente cuando es información nueva o cuando se quiere dar énfasis al sujeto."
+      "explanation": "En Australia, 'hatchback' es un término común para un automóvil pequeño con portón trasero; 'ute' es un vehículo utilitario, y 'cabriolet' o 'sedan' tienen significados específicos distintos."
+    }
+  ]
+}
+{
+  "id": "linkin-park-quiz",
+  "subject": "Linkin Park",
+  "questions": [
+    {
+      "question": "¿Quién fue el vocalista principal de Linkin Park, conocido por sus potentes gritos y melodías?",
+      "options": [
+        "Mike Shinoda",
+        "Brad Delson",
+        "Chester Bennington",
+        "Joe Hahn"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Chester Bennington fue el icónico vocalista principal de Linkin Park, cuya voz distintiva se convirtió en un sello de la banda."
+    },
+    {
+      "question": "¿Cuál de los siguientes álbumes NO es uno de los primeros tres de estudio de Linkin Park?",
+      "options": [
+        "Hybrid Theory",
+        "Meteora",
+        "Minutes to Midnight",
+        "A Thousand Suns"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Los primeros tres álbumes de estudio de Linkin Park fueron Hybrid Theory (2000), Meteora (2003) y Minutes to Midnight (2007). 'A Thousand Suns' fue lanzado en 2010."
+    },
+    {
+      "question": "¿Cómo se llamaba originalmente Linkin Park antes de adoptar su nombre definitivo?",
+      "options": [
+        "Xero",
+        "Hybrid Theory",
+        "Grey Daze",
+        "The Humble Brothers"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Antes de ser Linkin Park, la banda se llamaba Xero. Luego cambiaron a Hybrid Theory brevemente antes de establecerse en Linkin Park."
+    },
+    {
+      "question": "¿Qué canción de Linkin Park cuenta con la colaboración de Jay-Z en el álbum 'Collision Course'?",
+      "options": [
+        "In the End",
+        "Numb/Encore",
+        "Faint",
+        "Crawling"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'Numb/Encore' es una de las colaboraciones más famosas de Linkin Park con el rapero Jay-Z, parte de su álbum mash-up 'Collision Course'."
+    },
+    {
+      "question": "¿Qué miembro de la banda es el DJ, conocido por sus innovadores scratches y samples?",
+      "options": [
+        "Rob Bourdon",
+        "Phoenix Farrell",
+        "Joe Hahn",
+        "Mike Shinoda"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Joe Hahn, también conocido como Mr. Hahn, es el DJ, turntablist y programador de la banda, además de director de muchos de sus videos musicales."
+    },
+    {
+      "question": "¿Qué canción de 'Meteora' es famosa por su icónico riff de guitarra y su poderoso coro, siendo uno de los mayores éxitos de la banda?",
+      "options": [
+        "Breaking the Habit",
+        "Somewhere I Belong",
+        "Faint",
+        "Numb"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "'Numb' es una de las canciones más reconocibles y aclamadas de Linkin Park del álbum 'Meteora', conocida por su melancolía y su potente estructura."
+    },
+    {
+      "question": "¿Cuál fue el último álbum de estudio lanzado por Linkin Park con Chester Bennington como vocalista?",
+      "options": [
+        "Living Things",
+        "The Hunting Party",
+        "One More Light",
+        "From Zero"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'One More Light', lanzado en 2017, fue el séptimo y último álbum de estudio de Linkin Park con Chester Bennington antes de su fallecimiento."
+    },
+    {
+      "question": "¿Qué ingeniero de sonido y productor discográfico de renombre trabajó en los primeros álbumes de Linkin Park, ayudando a definir su sonido distintivo?",
+      "options": [
+        "Rick Rubin",
+        "Don Gilmore",
+        "Brendan O'Brien",
+        "Andy Wallace"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Don Gilmore produjo 'Hybrid Theory' y 'Meteora', contribuyendo significativamente a establecer el sonido característico de Linkin Park en sus primeros éxitos."
+    },
+    {
+      "question": "¿Qué canción del álbum 'A Thousand Suns' presenta un discurso samplesdo del físico J. Robert Oppenheimer sobre la creación de la bomba atómica?",
+      "options": [
+        "The Catalyst",
+        "Waiting for the End",
+        "Burning in the Skies",
+        "The Radiance"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "'The Radiance' es una pieza instrumental en 'A Thousand Suns' que incorpora un famoso extracto del discurso de J. Robert Oppenheimer sobre su implicación en el Proyecto Manhattan y la creación de la bomba atómica."
+    },
+    {
+      "question": "¿Cuál de los siguientes no es un miembro original de Linkin Park desde su formación como Xero?",
+      "options": [
+        "Dave 'Phoenix' Farrell",
+        "Joe Hahn",
+        "Rob Bourdon",
+        "Mike Shinoda"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Dave 'Phoenix' Farrell dejó la banda brevemente después de la formación de Xero y regresó en 2000, no siendo parte de la alineación inicial de Xero de forma continua."
     }
   ]
 }
