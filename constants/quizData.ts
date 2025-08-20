@@ -377,7 +377,7 @@ export const quizzes: QuizData[] = [
       explanation: "En Australia, 'hatchback' es un término común para un automóvil pequeño con portón trasero; 'ute' es un vehículo utilitario, y 'cabriolet' o 'sedan' tienen significados específicos distintos."
     }
   ]
-}
+},
 {
   id: "linkin-park-quiz",
   subject: "Linkin Park",
