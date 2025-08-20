@@ -261,5 +261,188 @@ export const quizzes: QuizData[] = [
         explanation: "'Los Juegos del Hambre' es una trilogía escrita por Suzanne Collins, adaptada al cine con gran éxito."
       }
     ]
-  }
+  },
+{
+  "id": "english-japanese-language",
+  "subject": "Cuestionario de Idioma Inglés y Japonés",
+  "questions": [
+    {
+      "question": "En inglés, ¿cuál de los siguientes 'phrasal verbs' significa 'posponer'?",
+      "options": [
+        "To look up",
+        "To put off",
+        "To get over",
+        "To take in"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "El 'phrasal verb' 'to put off' significa posponer o aplazar algo para un momento posterior. Por ejemplo, 'I had to put off my meeting until tomorrow'."
+    },
+    {
+      "question": "En japonés, ¿cuál es la forma educada del verbo 'hacer' (する - suru)?",
+      "options": [
+        "します (shimasu)",
+        "なさる (nasaru)",
+        "なさい (nasai)",
+        "しますます (shimasumasu)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "La forma honorífica (sonkeigo) de 'する' (hacer) es 'なさる' (nasaru). 'します' es la forma cortés (masu-form), no la honorífica. 'なさい' es una forma imperativa."
+    },
+    {
+      "question": "En inglés, ¿cuál es el uso correcto del 'Present Perfect Continuous' en la siguiente frase?",
+      "options": [
+        "He has been working on the project for two weeks.",
+        "He has worked on the project for two weeks.",
+        "He is working on the project for two weeks.",
+        "He works on the project for two weeks."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "El 'Present Perfect Continuous' ('has/have been' + verbo-ing) se usa para describir una acción que comenzó en el pasado y continúa hasta el presente, a menudo con un énfasis en la duración."
+    },
+    {
+      "question": "El 'kanji' (漢字) '女' se pronuncia 'onna' (おんな) y significa:",
+      "options": [
+        "Hombre",
+        "Niño",
+        "Mujer",
+        "Animal"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "El 'kanji' 女 (onna) significa 'mujer'. Se diferencia de '男' (otoko), que significa 'hombre'."
+    },
+    {
+      "question": "En inglés, la frase 'I couldn't care less' significa:",
+      "options": [
+        "Me importa un poco.",
+        "Me importa mucho.",
+        "No me importa en absoluto.",
+        "Podría importarme menos."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "La expresión 'I couldn't care less' es una forma idiomática de decir que algo no tiene ninguna importancia para ti, y que es imposible que te importe menos de lo que ya te importa."
+    },
+    {
+      "question": "En japonés, la partícula 'に' (ni) se puede usar para indicar:",
+      "options": [
+        "El sujeto de la oración.",
+        "El objeto directo de la oración.",
+        "El destino o la dirección del movimiento.",
+        "El tema de la oración."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "La partícula 'に' (ni) tiene múltiples usos, uno de los cuales es para indicar el destino o la dirección hacia la que se mueve algo o alguien, como en '学校に行きます' (gakkō ni ikimasu - Voy a la escuela)."
+    },
+    {
+      "question": "En inglés, ¿cuál es la forma correcta de expresar un 'subjuntivo' en la frase 'Es crucial que él _________ la verdad'?",
+      "options": [
+        "tells",
+        "tell",
+        "will tell",
+        "told"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "El subjuntivo en inglés (usado después de verbos como 'suggest', 'demand', 'insist', 'propose', y adjetivos como 'crucial', 'essential') requiere la forma base del verbo, 'tell', sin la 's' de la tercera persona del singular."
+    },
+    {
+      "question": "En japonés, ¿cómo se usa la forma 'te' de un verbo seguida de 'しまう' (shimau)?",
+      "options": [
+        "Para expresar una acción que debe realizarse.",
+        "Para expresar el estado actual de una acción en progreso.",
+        "Para expresar una acción que se ha completado de manera exhaustiva, o de la que uno se lamenta.",
+        "Para expresar una acción que se hará en el futuro."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "La estructura 'te-form' + 'しまう' (shimau) se usa para indicar que una acción ha sido completada completamente ('done up') o, de forma más coloquial, para expresar arrepentimiento o sorpresa por una acción terminada."
+    },
+    {
+      "question": "¿Cuál es el antónimo más cercano de 'ephemeral' en inglés?",
+      "options": [
+        "Transient",
+        "Fleeting",
+        "Permanent",
+        "Short-lived"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Ephemeral significa algo que dura muy poco tiempo, por lo que su antónimo es 'permanent', que significa algo que dura indefinidamente o por un largo periodo."
+    },
+    {
+      "question": "En japonés, ¿qué significa la expresión idiomática '一石二鳥' (isseki nichō)?",
+      "options": [
+        "El que mucho abarca, poco aprieta.",
+        "Matar dos pájaros de un tiro.",
+        "Una acción habla más que mil palabras.",
+        "No hay mal que por bien no venga."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "一石二鳥 (isseki nichō) es un 'yojijukugo' o modismo de cuatro caracteres que significa 'una piedra, dos pájaros'. Su equivalente en español es 'matar dos pájaros de un tiro', haciendo referencia a lograr dos objetivos con una sola acción."
+    },
+    {
+      "question": "En inglés, la frase 'to be on the fence' se usa para describir a alguien que:",
+      "options": [
+        "Está en una situación peligrosa.",
+        "Aún no ha tomado una decisión.",
+        "Está espiando a sus vecinos.",
+        "Se ha caído de una valla."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'To be on the fence' es una expresión idiomática que significa estar indeciso o neutral sobre un asunto, sin haberse comprometido con una de las opciones."
+    },
+    {
+      "question": "En japonés, ¿cuál es la diferencia principal entre '〜てください' (te kudasai) y '〜ていただけませんか' (te itadakemasen ka)?",
+      "options": [
+        "El primero es para peticiones, el segundo para dar órdenes.",
+        "El primero es una petición directa, el segundo es una petición más educada y formal.",
+        "El primero se usa con amigos, el segundo con la familia.",
+        "Ambas son intercambiables y no hay diferencia."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Ambas estructuras son para hacer peticiones. Sin embargo, '〜てください' (te kudasai) es una forma cortés pero más directa, mientras que '〜ていただけませんか' (te itadakemasen ka) es una forma mucho más formal y educada, utilizada con superiores o en situaciones de negocios."
+    },
+    {
+      "question": "En inglés, ¿cuál es el uso correcto del 'Past Perfect' en la siguiente frase?",
+      "options": [
+        "When I got to the station, the train already left.",
+        "When I got to the station, the train had already left.",
+        "When I was getting to the station, the train left.",
+        "When I have gotten to the station, the train left."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "El 'Past Perfect' ('had' + participio pasado) se utiliza para describir una acción que ocurrió antes de otra acción en el pasado. En este caso, el tren se fue antes de que yo llegara a la estación."
+    },
+    {
+      "question": "En japonés, ¿cómo se expresa la voz pasiva para el verbo 'leer' (読む - yomu)?",
+      "options": [
+        "読める (yomeru)",
+        "読んだ (yonda)",
+        "読ませる (yomaseru)",
+        "読まれる (yomareru)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "La voz pasiva se forma con la base del verbo 'a' + 'れる' (reru) o 'られる' (rareru). Para '読む' (yomu), la forma pasiva es '読まれる' (yomareru)."
+    },
+    {
+      "question": "En inglés, ¿cuál es la diferencia entre 'affect' y 'effect'?",
+      "options": [
+        "'Affect' es un sustantivo y 'effect' es un verbo.",
+        "'Affect' es un verbo que significa influir, y 'effect' es un sustantivo que significa resultado o consecuencia.",
+        "Ambos son sustantivos con significados similares.",
+        "Ambos son verbos que significan lo mismo."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Aunque hay excepciones, en general, 'affect' (con 'a') es un verbo que significa influir o causar un cambio. 'Effect' (con 'e') es un sustantivo que se refiere al resultado, consecuencia o impacto de algo."
+    },
+    {
+      "question": "¿Cuál es la diferencia de uso principal entre las partículas 'wa' (は) y 'ga' (が) en japonés?",
+      "options": [
+        "'wa' se usa para el objeto, 'ga' para el sujeto.",
+        "'wa' marca el tema, 'ga' marca el sujeto o la información nueva/enfocada.",
+        "'wa' se usa en oraciones afirmativas, 'ga' en oraciones negativas.",
+        "No hay diferencia, son intercambiables."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'は' (wa) marca el tema de la oración, que es lo que se discute, mientras que 'が' (ga) marca el sujeto de la oración, especialmente cuando es información nueva o cuando se quiere dar énfasis al sujeto."
+    }
+  ]
+}
+
 ];
