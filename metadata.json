@@ -1,0 +1,5 @@
+{
+  "name": "Quiz Quest",
+  "description": "Choose a pre-made quiz or generate your own with AI. Learn with explanations after every question.",
+  "requestFramePermissions": []
+}
