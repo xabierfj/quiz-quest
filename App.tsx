@@ -34,7 +34,7 @@ const App: React.FC = () => {
       const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
       const response = await ai.models.generateContent({
         model: "gemini-2.5-flash",
-        contents: `Generate a fun and engaging quiz in Spanish with 8 multiple-choice questions about ${topic}. For each question, provide 4 options, the 0-based index of the correct answer, and a brief explanation for why the answer is correct.`,
+        contents: `Generate a fun and engaging quiz in Spanish with 10 multiple-choice questions about ${topic}. For each question, provide 4 options, similar to the correct one to make it more challenging, the 0-based index of the correct answer, and a brief explanation for why the answer is correct.`,
         config: {
           responseMimeType: "application/json",
           responseSchema: {
