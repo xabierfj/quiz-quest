@@ -34,7 +34,7 @@ const App: React.FC = () => {
       const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
       const response = await ai.models.generateContent({
         model: "gemini-2.5-flash",
-        contents: `Generate a fun and engaging quiz in Spanish with 10 multiple-choice questions about ${topic}. For each question, provide 4 options, similar to the correct one to make it more challenging, the 0-based index of the correct answer, and a brief explanation for why the answer is correct.`,
+        contents: `Generate a fun but intellectually challenging quiz in Spanish (specifically European Spanish from Spain) about the topic ${topic}, consisting of exactly 10 multiple-choice questions where each question has 4 options that are deliberately very similar to make the choice difficult, the correct answer is given as a 0-based index, and each answer is followed by a detailed explanation in European Spanish that not only states why it is correct but also provides historical, cultural, or technical context that helps the player learn something new, with the overall style being engaging, entertaining, and designed for fans with intermediate to advanced knowledge of the subject rather than beginners.`,
         config: {
           responseMimeType: "application/json",
           responseSchema: {
@@ -42,7 +42,7 @@ const App: React.FC = () => {
             properties: {
               questions: {
                 type: Type.ARRAY,
-                description: "An array of 8 quiz questions.",
+                description: "An array of 10 quiz questions.",
                 items: {
                   type: Type.OBJECT,
                   properties: {
@@ -79,7 +79,7 @@ const App: React.FC = () => {
 
     } catch (e) {
       console.error(e);
-      setError("Failed to generate quiz. The topic might be too restrictive. Please try again.");
+      setError(`Failed to generate quiz. The topic might be too restrictive. Please try again.${e}`);
     } finally {
       setIsLoading(false);
     }
